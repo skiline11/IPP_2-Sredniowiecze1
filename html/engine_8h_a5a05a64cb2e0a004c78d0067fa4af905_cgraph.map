@@ -1,0 +1,5 @@
+<map id="check_correctness_of_positions_to_move_or_produce" name="check_correctness_of_positions_to_move_or_produce">
+<area shape="rect" id="node2" href="$engine_8h.html#a9be3a11fc5243aaf3d38b22e1645ada2" title="This function return absolute value of given number. " alt="" coords="245,5,366,32"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a04919bedca6c747ff007c23783d37d28" title="This function enforce incorrect command with exit(42) result. " alt="" coords="230,56,381,83"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c" title="Frees memory. " alt="" coords="430,56,519,83"/>
+</map>

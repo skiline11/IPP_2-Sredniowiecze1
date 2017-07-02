@@ -1,0 +1,98 @@
+\hypertarget{parse_8h}{\section{Dokumentacja pliku parse.\-h}
+\label{parse_8h}\index{parse.\-h@{parse.\-h}}
+}
+
+
+Interface of parser.  
+
+
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{parse_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Struktury danych}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structdef__command}{def\-\_\-command}
+\end{DoxyCompactItemize}
+\subsection*{Definicje typów}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{parse_8h_af0cd7b52142d459e0b082cc95c9ad293}{typedef struct \hyperlink{structdef__command}{def\-\_\-command} {\bfseries command}}\label{parse_8h_af0cd7b52142d459e0b082cc95c9ad293}
+
+\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{parse_8h_aac0ba770012451223eb424b457dade42}{void \hyperlink{parse_8h_aac0ba770012451223eb424b457dade42}{make\-\_\-command\-\_\-incorrect} (\hyperlink{structdef__command}{command} table)}\label{parse_8h_aac0ba770012451223eb424b457dade42}
+
+\begin{DoxyCompactList}\small\item\em This function return command with parameters correct = false. \end{DoxyCompactList}\item 
+bool \hyperlink{parse_8h_a0d148e8e7eecbfdb39c375e9649c680d}{correctness\-\_\-of\-\_\-spaces} (char \hyperlink{engine_8h_aad242164bb0908170880af0688ed3438}{input}\mbox{[}102\mbox{]}, \hyperlink{structdef__command}{command} table)
+\begin{DoxyCompactList}\small\item\em This function check if input has has correct spaces. \end{DoxyCompactList}\item 
+\hyperlink{structdef__command}{command} \hyperlink{parse_8h_a2f338d0e0bbdffa56a0af068d184acea}{parse\-\_\-command} ()
+\begin{DoxyCompactList}\small\item\em Reads a command. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Interface of parser. 
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{parse_8h_a0d148e8e7eecbfdb39c375e9649c680d}{\index{parse.\-h@{parse.\-h}!correctness\-\_\-of\-\_\-spaces@{correctness\-\_\-of\-\_\-spaces}}
+\index{correctness\-\_\-of\-\_\-spaces@{correctness\-\_\-of\-\_\-spaces}!parse.h@{parse.\-h}}
+\subsubsection[{correctness\-\_\-of\-\_\-spaces}]{\setlength{\rightskip}{0pt plus 5cm}bool correctness\-\_\-of\-\_\-spaces (
+\begin{DoxyParamCaption}
+\item[{char}]{input\mbox{[}102\mbox{]}, }
+\item[{{\bf command}}]{table}
+\end{DoxyParamCaption}
+)}}\label{parse_8h_a0d148e8e7eecbfdb39c375e9649c680d}
+
+
+This function check if input has has correct spaces. 
+
+Return true if it's true, and false otherwise. 
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{parse_8h_a0d148e8e7eecbfdb39c375e9649c680d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{parse_8h_a2f338d0e0bbdffa56a0af068d184acea}{\index{parse.\-h@{parse.\-h}!parse\-\_\-command@{parse\-\_\-command}}
+\index{parse\-\_\-command@{parse\-\_\-command}!parse.h@{parse.\-h}}
+\subsubsection[{parse\-\_\-command}]{\setlength{\rightskip}{0pt plus 5cm}{\bf command} parse\-\_\-command (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{parse_8h_a2f338d0e0bbdffa56a0af068d184acea}
+
+
+Reads a command. 
+
+Returns command with data points using 'command' structure. 
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{parse_8h_a2f338d0e0bbdffa56a0af068d184acea_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{parse_8h_a2f338d0e0bbdffa56a0af068d184acea_icgraph}
+\end{center}
+\end{figure}
+
+

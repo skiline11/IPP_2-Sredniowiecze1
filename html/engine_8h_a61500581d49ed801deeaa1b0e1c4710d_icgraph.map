@@ -1,0 +1,11 @@
+<map id="print_symbol" name="print_symbol">
+<area shape="rect" id="node2" href="$engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d" title="Prints (into stdout) top&#45;left corner of the board of size m x m where m = min(n,10). " alt="" coords="160,110,264,137"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a512751eb67e971e92a205e39ee8dfe57" title="Initializes a game with size of a board, number of rounds and positions of kings. ..." alt="" coords="505,9,548,35"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a56c5cf8a568cff737ff95520cbe6b405" title="This function end game with draw result. " alt="" coords="334,34,389,61"/>
+<area shape="rect" id="node7" href="$engine_8h.html#a484a4ab3480af45c873b3333f0cacee1" title="This function move characters from place coordinates (x1, y1) to (x2, y2) if it is possible..." alt="" coords="675,135,733,162"/>
+<area shape="rect" id="node8" href="$engine_8h.html#a32951a11c14553f0e03ed2e7576f2748" title="This function end game with win result of one of players. " alt="" coords="313,85,410,111"/>
+<area shape="rect" id="node9" href="$engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit knight a..." alt="" coords="643,186,765,213"/>
+<area shape="rect" id="node10" href="$engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit peasant ..." alt="" coords="459,237,595,263"/>
+<area shape="rect" id="node4" href="$middle__ages_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Function main() gets commands, and makes them. " alt="" coords="814,161,866,187"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a31d63d997d23cb4de7d589f0f8a5b337" title="This function make fight between character1 and character2 and delete fields killed characters..." alt="" coords="501,85,553,111"/>
+</map>

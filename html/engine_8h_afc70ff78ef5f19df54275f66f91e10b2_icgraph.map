@@ -1,0 +1,5 @@
+<map id="delete_field" name="delete_field">
+<area shape="rect" id="node2" href="$engine_8h.html#a31d63d997d23cb4de7d589f0f8a5b337" title="This function make fight between character1 and character2 and delete fields killed characters..." alt="" coords="153,5,205,32"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a484a4ab3480af45c873b3333f0cacee1" title="This function move characters from place coordinates (x1, y1) to (x2, y2) if it is possible..." alt="" coords="254,31,311,57"/>
+<area shape="rect" id="node4" href="$middle__ages_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Function main() gets commands, and makes them. " alt="" coords="361,31,413,57"/>
+</map>

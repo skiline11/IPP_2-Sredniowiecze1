@@ -1,0 +1,10 @@
+<map id="create_character" name="create_character">
+<area shape="rect" id="node2" href="$engine_8h.html#a320f52edf861f22d744f24cd9d8999a7" title="This function create peasant for init needs using create_character function. " alt="" coords="207,5,305,32"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a9437c65c740ed267afb70ac58b1a3b22" title="This function create knight for init needs using create_character function. " alt="" coords="199,56,313,83"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a298684de9430c77f30583d99098780b5" title="This function create peasant for init needs using create_character function. " alt="" coords="193,107,319,133"/>
+<area shape="rect" id="node7" href="$engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7" title="This function results in production unit on field with coordinates (x2, y2) by peasant on field with ..." alt="" coords="202,157,310,184"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a512751eb67e971e92a205e39ee8dfe57" title="Initializes a game with size of a board, number of rounds and positions of kings. ..." alt="" coords="415,56,457,83"/>
+<area shape="rect" id="node4" href="$middle__ages_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Function main() gets commands, and makes them. " alt="" coords="553,107,605,133"/>
+<area shape="rect" id="node8" href="$engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit knight a..." alt="" coords="375,107,497,133"/>
+<area shape="rect" id="node9" href="$engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit peasant ..." alt="" coords="368,157,504,184"/>
+</map>

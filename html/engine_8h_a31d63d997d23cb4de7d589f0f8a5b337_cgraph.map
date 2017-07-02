@@ -1,0 +1,9 @@
+<map id="fight" name="fight">
+<area shape="rect" id="node2" href="$engine_8h.html#afc70ff78ef5f19df54275f66f91e10b2" title="This function delete given field and if it was last field delete whole line. " alt="" coords="107,5,205,32"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a56c5cf8a568cff737ff95520cbe6b405" title="This function end game with draw result. " alt="" coords="129,107,183,133"/>
+<area shape="rect" id="node8" href="$engine_8h.html#a32951a11c14553f0e03ed2e7576f2748" title="This function end game with win result of one of players. " alt="" coords="107,56,205,83"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d" title="Prints (into stdout) top&#45;left corner of the board of size m x m where m = min(n,10). " alt="" coords="253,56,357,83"/>
+<area shape="rect" id="node7" href="$engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c" title="Frees memory. " alt="" coords="261,107,350,133"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d" title="This function print symbol of given field. " alt="" coords="418,31,523,57"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a6351fcf47fb1cd042b83da768706e567" title="This function print empty line (line full of spaces) which include given amount of spaces..." alt="" coords="405,81,536,108"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="init" name="init">
+<area shape="rect" id="node2" href="$engine_8h.html#ae4e387369a6f703ef76b1c328a5b7f41" title="This function check if input is correct. " alt="" coords="96,5,264,46"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a04919bedca6c747ff007c23783d37d28" title="This function enforce incorrect command with exit(42) result. " alt="" coords="313,41,463,68"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a9be3a11fc5243aaf3d38b22e1645ada2" title="This function return absolute value of given number. " alt="" coords="119,121,241,148"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a8e474b14265a2ebbcb0c7461817214bc" title="This function memorize parameters given with INIT. " alt="" coords="97,172,263,199"/>
+<area shape="rect" id="node7" href="$engine_8h.html#af0e24474a4a8addf53dba7a206ad572d" title="This function create mock for new_line and set pos_x of this mock on (&#45;1). " alt="" coords="133,223,227,249"/>
+<area shape="rect" id="node8" href="$engine_8h.html#a320f52edf861f22d744f24cd9d8999a7" title="This function create peasant for init needs using create_character function. " alt="" coords="131,273,229,300"/>
+<area shape="rect" id="node10" href="$engine_8h.html#a298684de9430c77f30583d99098780b5" title="This function create peasant for init needs using create_character function. " alt="" coords="117,324,243,351"/>
+<area shape="rect" id="node11" href="$engine_8h.html#a9437c65c740ed267afb70ac58b1a3b22" title="This function create knight for init needs using create_character function. " alt="" coords="123,375,237,401"/>
+<area shape="rect" id="node12" href="$engine_8h.html#a356d8f07535e1016fbe5a6fdddb33516" title="This function put king, peasant, knight1 and knigth2 to line behind new_line1. " alt="" coords="133,425,227,452"/>
+<area shape="rect" id="node13" href="$engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d" title="Prints (into stdout) top&#45;left corner of the board of size m x m where m = min(n,10). " alt="" coords="128,476,232,503"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c" title="Frees memory. " alt="" coords="513,41,602,68"/>
+<area shape="rect" id="node9" href="$engine_8h.html#aeb8e3f2cbbdfb88436ca9d4a3459470c" title="This function create peasant for init. " alt="" coords="319,324,457,351"/>
+<area shape="rect" id="node14" href="$engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d" title="This function print symbol of given field. " alt="" coords="335,451,441,477"/>
+<area shape="rect" id="node15" href="$engine_8h.html#a6351fcf47fb1cd042b83da768706e567" title="This function print empty line (line full of spaces) which include given amount of spaces..." alt="" coords="323,501,453,528"/>
+</map>

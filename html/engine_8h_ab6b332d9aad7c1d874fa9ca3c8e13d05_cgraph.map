@@ -1,0 +1,14 @@
+<map id="produce_knight" name="produce_knight">
+<area shape="rect" id="node2" href="$engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7" title="This function results in production unit on field with coordinates (x2, y2) by peasant on field with ..." alt="" coords="177,187,285,213"/>
+<area shape="rect" id="node11" href="$engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d" title="Prints (into stdout) top&#45;left corner of the board of size m x m where m = min(n,10). " alt="" coords="179,339,283,365"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a5a05a64cb2e0a004c78d0067fa4af905" title="This function check if positions are correct to make action. " alt="" coords="334,5,509,61"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a04919bedca6c747ff007c23783d37d28" title="This function enforce incorrect command with exit(42) result. " alt="" coords="558,77,709,104"/>
+<area shape="rect" id="node7" href="$engine_8h.html#a99cab52e7cfcf0e6ff4808ce3f6a74b1" title="This function look for line with index y. " alt="" coords="383,136,459,163"/>
+<area shape="rect" id="node8" href="$engine_8h.html#a548fff34b91e10f9ff3779c15a10ef93" title="This function look for field with index x, in the given line. " alt="" coords="381,187,462,213"/>
+<area shape="rect" id="node9" href="$engine_8h.html#aeb8e3f2cbbdfb88436ca9d4a3459470c" title="This function create peasant for init. " alt="" coords="353,237,490,264"/>
+<area shape="rect" id="node10" href="$engine_8h.html#af0e24474a4a8addf53dba7a206ad572d" title="This function create mock for new_line and set pos_x of this mock on (&#45;1). " alt="" coords="374,288,469,315"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a9be3a11fc5243aaf3d38b22e1645ada2" title="This function return absolute value of given number. " alt="" coords="573,20,694,47"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c" title="Frees memory. " alt="" coords="758,77,847,104"/>
+<area shape="rect" id="node12" href="$engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d" title="This function print symbol of given field. " alt="" coords="369,339,474,365"/>
+<area shape="rect" id="node13" href="$engine_8h.html#a6351fcf47fb1cd042b83da768706e567" title="This function print empty line (line full of spaces) which include given amount of spaces..." alt="" coords="356,389,487,416"/>
+</map>

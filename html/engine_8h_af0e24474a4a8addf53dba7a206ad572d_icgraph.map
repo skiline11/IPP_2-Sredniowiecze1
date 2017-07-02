@@ -1,0 +1,8 @@
+<map id="create_line" name="create_line">
+<area shape="rect" id="node2" href="$engine_8h.html#a512751eb67e971e92a205e39ee8dfe57" title="Initializes a game with size of a board, number of rounds and positions of kings. ..." alt="" coords="353,5,396,32"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a484a4ab3480af45c873b3333f0cacee1" title="This function move characters from place coordinates (x1, y1) to (x2, y2) if it is possible..." alt="" coords="175,56,233,83"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7" title="This function results in production unit on field with coordinates (x2, y2) by peasant on field with ..." alt="" coords="150,107,258,133"/>
+<area shape="rect" id="node3" href="$middle__ages_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Function main() gets commands, and makes them. " alt="" coords="491,81,543,108"/>
+<area shape="rect" id="node6" href="$engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit knight a..." alt="" coords="313,107,436,133"/>
+<area shape="rect" id="node7" href="$engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit peasant ..." alt="" coords="307,157,443,184"/>
+</map>

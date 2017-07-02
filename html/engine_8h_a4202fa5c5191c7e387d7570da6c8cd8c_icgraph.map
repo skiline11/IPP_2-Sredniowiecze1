@@ -1,0 +1,15 @@
+<map id="end_game" name="end_game">
+<area shape="rect" id="node2" href="$engine_8h.html#a04919bedca6c747ff007c23783d37d28" title="This function enforce incorrect command with exit(42) result. " alt="" coords="145,172,295,199"/>
+<area shape="rect" id="node11" href="$engine_8h.html#a56c5cf8a568cff737ff95520cbe6b405" title="This function end game with draw result. " alt="" coords="193,303,247,329"/>
+<area shape="rect" id="node13" href="$engine_8h.html#a32951a11c14553f0e03ed2e7576f2748" title="This function end game with win result of one of players. " alt="" coords="171,353,269,380"/>
+<area shape="rect" id="node14" href="$engine_8h.html#a6c355efb3996f6ddcc16c27d0224bfb0" title="This function end turn of one of players, and check if the number of played turns isn&#39;t bigger than m..." alt="" coords="753,373,834,400"/>
+<area shape="rect" id="node3" href="$engine_8h.html#ae4e387369a6f703ef76b1c328a5b7f41" title="This function check if input is correct. " alt="" coords="348,5,516,46"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a512751eb67e971e92a205e39ee8dfe57" title="Initializes a game with size of a board, number of rounds and positions of kings. ..." alt="" coords="601,71,644,97"/>
+<area shape="rect" id="node5" href="$middle__ages_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Function main() gets commands, and makes them. " alt="" coords="910,215,962,241"/>
+<area shape="rect" id="node6" href="$engine_8h.html#a5a05a64cb2e0a004c78d0067fa4af905" title="This function check if positions are correct to make action. " alt="" coords="345,223,519,279"/>
+<area shape="rect" id="node7" href="$engine_8h.html#a484a4ab3480af45c873b3333f0cacee1" title="This function move characters from place coordinates (x1, y1) to (x2, y2) if it is possible..." alt="" coords="594,301,651,328"/>
+<area shape="rect" id="node8" href="$engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7" title="This function results in production unit on field with coordinates (x2, y2) by peasant on field with ..." alt="" coords="569,213,677,240"/>
+<area shape="rect" id="node9" href="$engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit knight a..." alt="" coords="732,189,855,216"/>
+<area shape="rect" id="node10" href="$engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2" title="This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit peasant ..." alt="" coords="725,240,861,267"/>
+<area shape="rect" id="node12" href="$engine_8h.html#a31d63d997d23cb4de7d589f0f8a5b337" title="This function make fight between character1 and character2 and delete fields killed characters..." alt="" coords="406,353,458,380"/>
+</map>

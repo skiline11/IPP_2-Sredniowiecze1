@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Średniowiecze: Plik źródłowy engine.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Średniowiecze
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Struktury&#160;Danych</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Globalne</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Struktury Danych</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Strony</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">engine.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="engine_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Michał Radecki mr371591 */</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/* IPP - Drugie zadanie zaliczeniowe &quot;Średniowiecze - cz1&quot; */</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef ENGINE_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENGINE_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">struct </span><a class="code" href="structline.html">line</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structlist__of__lines.html">list_of_lines</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">struct </span><a class="code" href="structlist__of__lines.html">list_of_lines</a>* <a class="code" href="structlist__of__lines.html#a7670f224d6f00d0198333a18f3f7c315">next_line</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">struct </span><a class="code" href="structlist__of__lines.html">list_of_lines</a>* <a class="code" href="structlist__of__lines.html#a483118b9208361c9abaadd6c31c01b4f">previous_line</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">struct </span><a class="code" href="structline.html">line</a> *<a class="code" href="structlist__of__lines.html#a3e9c87687a25f8afb98fe70ca294bd1c">this_line</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlist__of__lines.html#a422664f6b1fecd50b43a0732624c3686">map_size</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlist__of__lines.html#a978838f8a1d0131c1273c2976d3e7bb8">max_number_of_turns</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlist__of__lines.html#a6b2629df46fb4689e6b8ab3c20c7dfbd">number_of_line</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}<a class="code" href="engine_8h.html#a7bf8f2b3f2abed362e87e5156b0cad7d">type_of_list_of_lines</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structline.html">line</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structline.html#a78bdea175fde5dcd9b56fcf091663b42">king</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structline.html#aa71a3f832987387529bf56948e0c1fbe">knight</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structline.html#a89b63cb266efa1ebcb62489dfecc04e9">peasant</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/* X-coordinate of unit */</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> pos_x;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">/* Y-coordinate of unit */</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> pos_y;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/* Number of player to which the unit belongs */</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> player_number;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">/* Number of turn, when unit made last move or action */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> last_move_or_action;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">struct </span><a class="code" href="structline.html">line</a> *<a class="code" href="structline.html#a018f1985c87241c864aef6e5da9aa952">next</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">struct </span><a class="code" href="structline.html">line</a> *<a class="code" href="structline.html#abb721ad888ffdb866817db5b5afc033d">previous</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a> *<a class="code" href="structline.html#ac189df255ed25ae802cf412f65a07e2a">to_list_of_lines</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}<a class="code" href="engine_8h.html#af61fc96585211a1dbb07a47db4abe8ca">type_of_line</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structinput__parameters.html">input_parameters</a></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#ab3a0882ef67c5fb19683671720fcc7a6">n</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#abb9b1fbe51332fcecfb5a5cd205f047f">k</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#a19e44a03729441c732e953a3ca01bc3f">p1</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structinput__parameters.html#acb0783d0bc4681f5aab137eec42eed08">   66</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#acb0783d0bc4681f5aab137eec42eed08">p2</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#a5846cf94e253e32101934a964a7c74e1">x1</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#a70e75e8878950f26b029c8bcd867dfb3">y1</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#aeea7bd44e263a5f8d06384efd3bb5d0e">x2</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinput__parameters.html#ae324caf4e1ac82a6baaef8a5234081c3">y2</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}<a class="code" href="engine_8h.html#af248b9eb3c9bfb5ae6abeebc7c11fb60">type_of_input_parameters</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="engine_8h.html#a121e21e0e93b33f6071d24a43ce28830">   78</a></span>&#160;<a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a>* <a class="code" href="engine_8h.html#a121e21e0e93b33f6071d24a43ce28830">constructor_of_main_list</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="engine_8h.html#aad242164bb0908170880af0688ed3438">   81</a></span>&#160;<a class="code" href="structinput__parameters.html">type_of_input_parameters</a> <a class="code" href="engine_8h.html#aad242164bb0908170880af0688ed3438">input</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="engine_8h.html#ac04a3e0434907c4977d4cc8592472e4e">   84</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="engine_8h.html#ac04a3e0434907c4977d4cc8592472e4e">number_of_init</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="engine_8h.html#a230bf1ce6f1480f9fddb4577d1742f4f">   87</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="engine_8h.html#a230bf1ce6f1480f9fddb4577d1742f4f">player_number</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="engine_8h.html#aa60bf4b5b108d9591140a5abfc89c5fb">   90</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="engine_8h.html#aa60bf4b5b108d9591140a5abfc89c5fb">counter_of_rounds</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#ab83db01d3f4a456157ab67717e594062">make_list_empty</a>(<a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a> *constructor_of_main_list);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a671b58f5509a3a9fa692bacccfc32cc9">start_game</a>();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c">end_game</a>();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a04919bedca6c747ff007c23783d37d28">incorrect_command</a>();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d">print_symbol</a>(<a class="code" href="structline.html">type_of_line</a> *iterator_on_line);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a6351fcf47fb1cd042b83da768706e567">print_empty_line</a>(<span class="keywordtype">int</span> size_to_print);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d">print_topleft</a>();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#aeb8e3f2cbbdfb88436ca9d4a3459470c">create_character</a>(<a class="code" href="structline.html">type_of_line</a>* character, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a320f52edf861f22d744f24cd9d8999a7">create_king</a>(<a class="code" href="structline.html">type_of_line</a>* king, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a9437c65c740ed267afb70ac58b1a3b22">create_knight</a>(<a class="code" href="structline.html">type_of_line</a>* knight, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a298684de9430c77f30583d99098780b5">create_peasant</a>(<a class="code" href="structline.html">type_of_line</a>* peasant, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a356d8f07535e1016fbe5a6fdddb33516">put_in_line</a>(<a class="code" href="structline.html">type_of_line</a>* new_line1, <a class="code" href="structline.html">type_of_line</a>* king, <a class="code" href="structline.html">type_of_line</a>* peasant, <a class="code" href="structline.html">type_of_line</a>* knight1, <a class="code" href="structline.html">type_of_line</a>* knight2);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#af0e24474a4a8addf53dba7a206ad572d">create_line</a>(<a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a>* new_line, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="keywordtype">int</span> <a class="code" href="engine_8h.html#a9be3a11fc5243aaf3d38b22e1645ada2">absolute_value</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#ae4e387369a6f703ef76b1c328a5b7f41">check_correctness_of_input</a>(<span class="keywordtype">int</span> n, <span class="keywordtype">int</span> k, <span class="keywordtype">int</span> p, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a5a05a64cb2e0a004c78d0067fa4af905">check_correctness_of_positions_to_move_or_produce</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a8e474b14265a2ebbcb0c7461817214bc">set_input_parameters</a>(<span class="keywordtype">int</span> n, <span class="keywordtype">int</span> k, <span class="keywordtype">int</span> p, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a512751eb67e971e92a205e39ee8dfe57">init</a>(<span class="keywordtype">int</span> n, <span class="keywordtype">int</span> k, <span class="keywordtype">int</span> p, <span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a>* <a class="code" href="engine_8h.html#a99cab52e7cfcf0e6ff4808ce3f6a74b1">find_line</a>(<span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<a class="code" href="structline.html">type_of_line</a>* <a class="code" href="engine_8h.html#a548fff34b91e10f9ff3779c15a10ef93">find_field</a>(<a class="code" href="structlist__of__lines.html">type_of_list_of_lines</a>* iterator, <span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#afc70ff78ef5f19df54275f66f91e10b2">delete_field</a>(<a class="code" href="structline.html">type_of_line</a>* character);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a56c5cf8a568cff737ff95520cbe6b405">draw</a>();</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a32951a11c14553f0e03ed2e7576f2748">player_won</a>(<span class="keywordtype">int</span> <a class="code" href="engine_8h.html#a230bf1ce6f1480f9fddb4577d1742f4f">player_number</a>);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a31d63d997d23cb4de7d589f0f8a5b337">fight</a>(<a class="code" href="structline.html">type_of_line</a>* character1, <a class="code" href="structline.html">type_of_line</a>* character2);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a19b6e533c5b9bde71c3c38e571b0917b">clone_field</a>(<a class="code" href="structline.html">type_of_line</a>* field, <a class="code" href="structline.html">type_of_line</a>* new_field);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a484a4ab3480af45c873b3333f0cacee1">move</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<a class="code" href="structline.html">type_of_line</a>* <a class="code" href="engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7">produce_unit</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05">produce_knight</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2">produce_peasant</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> x2, <span class="keywordtype">int</span> y2);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="keywordtype">void</span> <a class="code" href="engine_8h.html#a6c355efb3996f6ddcc16c27d0224bfb0">end_turn</a>();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* ENGINE_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="engine_8h_html_ac04a3e0434907c4977d4cc8592472e4e"><div class="ttname"><a href="engine_8h.html#ac04a3e0434907c4977d4cc8592472e4e">number_of_init</a></div><div class="ttdeci">int number_of_init</div><div class="ttdoc">Counter of number of initializations. </div><div class="ttdef"><b>Definition:</b> engine.h:84</div></div>
+<div class="ttc" id="structinput__parameters_html_abb9b1fbe51332fcecfb5a5cd205f047f"><div class="ttname"><a href="structinput__parameters.html#abb9b1fbe51332fcecfb5a5cd205f047f">input_parameters::k</a></div><div class="ttdeci">int k</div><div class="ttdoc">maximum amount of turns for every player </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="structlist__of__lines_html_a978838f8a1d0131c1273c2976d3e7bb8"><div class="ttname"><a href="structlist__of__lines.html#a978838f8a1d0131c1273c2976d3e7bb8">list_of_lines::max_number_of_turns</a></div><div class="ttdeci">int max_number_of_turns</div><div class="ttdoc">Information about max_number_of_turns. </div><div class="ttdef"><b>Definition:</b> engine.c:15</div></div>
+<div class="ttc" id="structlist__of__lines_html_a422664f6b1fecd50b43a0732624c3686"><div class="ttname"><a href="structlist__of__lines.html#a422664f6b1fecd50b43a0732624c3686">list_of_lines::map_size</a></div><div class="ttdeci">int map_size</div><div class="ttdoc">Information about map_size. </div><div class="ttdef"><b>Definition:</b> engine.c:15</div></div>
+<div class="ttc" id="engine_8h_html_a31d63d997d23cb4de7d589f0f8a5b337"><div class="ttname"><a href="engine_8h.html#a31d63d997d23cb4de7d589f0f8a5b337">fight</a></div><div class="ttdeci">void fight(type_of_line *character1, type_of_line *character2)</div><div class="ttdoc">This function make fight between character1 and character2 and delete fields killed characters...</div><div class="ttdef"><b>Definition:</b> engine.c:385</div></div>
+<div class="ttc" id="engine_8h_html_a1fb95c1cfdb44f81d4ba80658b50913d"><div class="ttname"><a href="engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d">print_topleft</a></div><div class="ttdeci">void print_topleft()</div><div class="ttdoc">Prints (into stdout) top-left corner of the board of size m x m where m = min(n,10). </div><div class="ttdef"><b>Definition:</b> engine.c:110</div></div>
+<div class="ttc" id="engine_8h_html_af248b9eb3c9bfb5ae6abeebc7c11fb60"><div class="ttname"><a href="engine_8h.html#af248b9eb3c9bfb5ae6abeebc7c11fb60">type_of_input_parameters</a></div><div class="ttdeci">struct input_parameters type_of_input_parameters</div><div class="ttdoc">This structure include input parameters. </div></div>
+<div class="ttc" id="engine_8h_html_a484a4ab3480af45c873b3333f0cacee1"><div class="ttname"><a href="engine_8h.html#a484a4ab3480af45c873b3333f0cacee1">move</a></div><div class="ttdeci">void move(int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function move characters from place coordinates (x1, y1) to (x2, y2) if it is possible...</div><div class="ttdef"><b>Definition:</b> engine.c:456</div></div>
+<div class="ttc" id="structlist__of__lines_html_a6b2629df46fb4689e6b8ab3c20c7dfbd"><div class="ttname"><a href="structlist__of__lines.html#a6b2629df46fb4689e6b8ab3c20c7dfbd">list_of_lines::number_of_line</a></div><div class="ttdeci">int number_of_line</div><div class="ttdoc">Information about number_of_line. </div><div class="ttdef"><b>Definition:</b> engine.c:15</div></div>
+<div class="ttc" id="engine_8h_html_aad242164bb0908170880af0688ed3438"><div class="ttname"><a href="engine_8h.html#aad242164bb0908170880af0688ed3438">input</a></div><div class="ttdeci">type_of_input_parameters input</div><div class="ttdoc">Memory of input parameters. </div><div class="ttdef"><b>Definition:</b> engine.h:81</div></div>
+<div class="ttc" id="structinput__parameters_html_a5846cf94e253e32101934a964a7c74e1"><div class="ttname"><a href="structinput__parameters.html#a5846cf94e253e32101934a964a7c74e1">input_parameters::x1</a></div><div class="ttdeci">int x1</div><div class="ttdoc">x-coordinate of king of player1 </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="structlist__of__lines_html"><div class="ttname"><a href="structlist__of__lines.html">list_of_lines</a></div><div class="ttdoc">Structure of list_of_lines. </div><div class="ttdef"><b>Definition:</b> engine.c:10</div></div>
+<div class="ttc" id="engine_8h_html_abb4d3708d6bdc644d179a3630518a2b2"><div class="ttname"><a href="engine_8h.html#abb4d3708d6bdc644d179a3630518a2b2">produce_peasant</a></div><div class="ttdeci">void produce_peasant(int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit peasant ...</div><div class="ttdef"><b>Definition:</b> engine.c:766</div></div>
+<div class="ttc" id="engine_8h_html_a356d8f07535e1016fbe5a6fdddb33516"><div class="ttname"><a href="engine_8h.html#a356d8f07535e1016fbe5a6fdddb33516">put_in_line</a></div><div class="ttdeci">void put_in_line(type_of_line *new_line1, type_of_line *king, type_of_line *peasant, type_of_line *knight1, type_of_line *knight2)</div><div class="ttdoc">This function put king, peasant, knight1 and knigth2 to line behind new_line1. </div><div class="ttdef"><b>Definition:</b> engine.c:179</div></div>
+<div class="ttc" id="engine_8h_html_a33a2165cf3d1a1dbfed5422b2226a0d7"><div class="ttname"><a href="engine_8h.html#a33a2165cf3d1a1dbfed5422b2226a0d7">produce_unit</a></div><div class="ttdeci">type_of_line * produce_unit(int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function results in production unit on field with coordinates (x2, y2) by peasant on field with ...</div><div class="ttdef"><b>Definition:</b> engine.c:625</div></div>
+<div class="ttc" id="engine_8h_html_aa60bf4b5b108d9591140a5abfc89c5fb"><div class="ttname"><a href="engine_8h.html#aa60bf4b5b108d9591140a5abfc89c5fb">counter_of_rounds</a></div><div class="ttdeci">int counter_of_rounds</div><div class="ttdoc">Counter of actually playing turn. </div><div class="ttdef"><b>Definition:</b> engine.h:90</div></div>
+<div class="ttc" id="engine_8h_html_ab83db01d3f4a456157ab67717e594062"><div class="ttname"><a href="engine_8h.html#ab83db01d3f4a456157ab67717e594062">make_list_empty</a></div><div class="ttdeci">void make_list_empty(type_of_list_of_lines *constructor_of_main_list)</div><div class="ttdoc">This function makes main list empty, with no previous, and next field. </div><div class="ttdef"><b>Definition:</b> engine.c:38</div></div>
+<div class="ttc" id="structinput__parameters_html_ab3a0882ef67c5fb19683671720fcc7a6"><div class="ttname"><a href="structinput__parameters.html#ab3a0882ef67c5fb19683671720fcc7a6">input_parameters::n</a></div><div class="ttdeci">int n</div><div class="ttdoc">size of map </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="engine_8h_html_a56c5cf8a568cff737ff95520cbe6b405"><div class="ttname"><a href="engine_8h.html#a56c5cf8a568cff737ff95520cbe6b405">draw</a></div><div class="ttdeci">void draw()</div><div class="ttdoc">This function end game with draw result. </div><div class="ttdef"><b>Definition:</b> engine.c:369</div></div>
+<div class="ttc" id="structline_html_a78bdea175fde5dcd9b56fcf091663b42"><div class="ttname"><a href="structline.html#a78bdea175fde5dcd9b56fcf091663b42">line::king</a></div><div class="ttdeci">bool king</div><div class="ttdoc">Information about race of unit. </div><div class="ttdef"><b>Definition:</b> engine.c:20</div></div>
+<div class="ttc" id="structline_html_a89b63cb266efa1ebcb62489dfecc04e9"><div class="ttname"><a href="structline.html#a89b63cb266efa1ebcb62489dfecc04e9">line::peasant</a></div><div class="ttdeci">bool peasant</div><div class="ttdoc">Information about race of unit. </div><div class="ttdef"><b>Definition:</b> engine.c:20</div></div>
+<div class="ttc" id="structlist__of__lines_html_a3e9c87687a25f8afb98fe70ca294bd1c"><div class="ttname"><a href="structlist__of__lines.html#a3e9c87687a25f8afb98fe70ca294bd1c">list_of_lines::this_line</a></div><div class="ttdeci">struct line * this_line</div><div class="ttdoc">Indicator to fields in this line. </div><div class="ttdef"><b>Definition:</b> engine.c:14</div></div>
+<div class="ttc" id="engine_8h_html_a6351fcf47fb1cd042b83da768706e567"><div class="ttname"><a href="engine_8h.html#a6351fcf47fb1cd042b83da768706e567">print_empty_line</a></div><div class="ttdeci">void print_empty_line(int size_to_print)</div><div class="ttdoc">This function print empty line (line full of spaces) which include given amount of spaces...</div><div class="ttdef"><b>Definition:</b> engine.c:100</div></div>
+<div class="ttc" id="structlist__of__lines_html_a7670f224d6f00d0198333a18f3f7c315"><div class="ttname"><a href="structlist__of__lines.html#a7670f224d6f00d0198333a18f3f7c315">list_of_lines::next_line</a></div><div class="ttdeci">struct list_of_lines * next_line</div><div class="ttdoc">Indicator to next line in list of lines. </div><div class="ttdef"><b>Definition:</b> engine.c:12</div></div>
+<div class="ttc" id="structline_html"><div class="ttname"><a href="structline.html">line</a></div><div class="ttdoc">Structure of single line. </div><div class="ttdef"><b>Definition:</b> engine.c:18</div></div>
+<div class="ttc" id="structinput__parameters_html_a70e75e8878950f26b029c8bcd867dfb3"><div class="ttname"><a href="structinput__parameters.html#a70e75e8878950f26b029c8bcd867dfb3">input_parameters::y1</a></div><div class="ttdeci">int y1</div><div class="ttdoc">y-coordinate of king of player1 </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="engine_8h_html_a04919bedca6c747ff007c23783d37d28"><div class="ttname"><a href="engine_8h.html#a04919bedca6c747ff007c23783d37d28">incorrect_command</a></div><div class="ttdeci">void incorrect_command()</div><div class="ttdoc">This function enforce incorrect command with exit(42) result. </div><div class="ttdef"><b>Definition:</b> engine.c:77</div></div>
+<div class="ttc" id="engine_8h_html_ae4e387369a6f703ef76b1c328a5b7f41"><div class="ttname"><a href="engine_8h.html#ae4e387369a6f703ef76b1c328a5b7f41">check_correctness_of_input</a></div><div class="ttdeci">void check_correctness_of_input(int n, int k, int p, int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function check if input is correct. </div><div class="ttdef"><b>Definition:</b> engine.c:215</div></div>
+<div class="ttc" id="engine_8h_html_a320f52edf861f22d744f24cd9d8999a7"><div class="ttname"><a href="engine_8h.html#a320f52edf861f22d744f24cd9d8999a7">create_king</a></div><div class="ttdeci">void create_king(type_of_line *king, int x)</div><div class="ttdoc">This function create peasant for init needs using create_character function. </div><div class="ttdef"><b>Definition:</b> engine.c:163</div></div>
+<div class="ttc" id="engine_8h_html_a8e474b14265a2ebbcb0c7461817214bc"><div class="ttname"><a href="engine_8h.html#a8e474b14265a2ebbcb0c7461817214bc">set_input_parameters</a></div><div class="ttdeci">void set_input_parameters(int n, int k, int p, int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function memorize parameters given with INIT. </div><div class="ttdef"><b>Definition:</b> engine.c:229</div></div>
+<div class="ttc" id="structline_html_a018f1985c87241c864aef6e5da9aa952"><div class="ttname"><a href="structline.html#a018f1985c87241c864aef6e5da9aa952">line::next</a></div><div class="ttdeci">struct line * next</div><div class="ttdoc">Indicator to next unit in line. </div><div class="ttdef"><b>Definition:</b> engine.c:22</div></div>
+<div class="ttc" id="engine_8h_html_a19b6e533c5b9bde71c3c38e571b0917b"><div class="ttname"><a href="engine_8h.html#a19b6e533c5b9bde71c3c38e571b0917b">clone_field</a></div><div class="ttdeci">void clone_field(type_of_line *field, type_of_line *new_field)</div><div class="ttdoc">This function copy every parameters from field to new_field. </div><div class="ttdef"><b>Definition:</b> engine.c:447</div></div>
+<div class="ttc" id="engine_8h_html_a5a05a64cb2e0a004c78d0067fa4af905"><div class="ttname"><a href="engine_8h.html#a5a05a64cb2e0a004c78d0067fa4af905">check_correctness_of_positions_to_move_or_produce</a></div><div class="ttdeci">void check_correctness_of_positions_to_move_or_produce(int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function check if positions are correct to make action. </div><div class="ttdef"><b>Definition:</b> engine.c:221</div></div>
+<div class="ttc" id="structline_html_aa71a3f832987387529bf56948e0c1fbe"><div class="ttname"><a href="structline.html#aa71a3f832987387529bf56948e0c1fbe">line::knight</a></div><div class="ttdeci">bool knight</div><div class="ttdoc">Information about race of unit. </div><div class="ttdef"><b>Definition:</b> engine.c:20</div></div>
+<div class="ttc" id="engine_8h_html_aeb8e3f2cbbdfb88436ca9d4a3459470c"><div class="ttname"><a href="engine_8h.html#aeb8e3f2cbbdfb88436ca9d4a3459470c">create_character</a></div><div class="ttdeci">void create_character(type_of_line *character, int x)</div><div class="ttdoc">This function create peasant for init. </div><div class="ttdef"><b>Definition:</b> engine.c:153</div></div>
+<div class="ttc" id="structinput__parameters_html"><div class="ttname"><a href="structinput__parameters.html">input_parameters</a></div><div class="ttdoc">This structure include input parameters. </div><div class="ttdef"><b>Definition:</b> engine.c:27</div></div>
+<div class="ttc" id="structinput__parameters_html_acb0783d0bc4681f5aab137eec42eed08"><div class="ttname"><a href="structinput__parameters.html#acb0783d0bc4681f5aab137eec42eed08">input_parameters::p2</a></div><div class="ttdeci">int p2</div><div class="ttdoc">number of player2 </div><div class="ttdef"><b>Definition:</b> engine.h:66</div></div>
+<div class="ttc" id="engine_8h_html_a4202fa5c5191c7e387d7570da6c8cd8c"><div class="ttname"><a href="engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c">end_game</a></div><div class="ttdeci">void end_game()</div><div class="ttdoc">Frees memory. </div><div class="ttdef"><b>Definition:</b> engine.c:52</div></div>
+<div class="ttc" id="engine_8h_html_a99cab52e7cfcf0e6ff4808ce3f6a74b1"><div class="ttname"><a href="engine_8h.html#a99cab52e7cfcf0e6ff4808ce3f6a74b1">find_line</a></div><div class="ttdeci">type_of_list_of_lines * find_line(int y)</div><div class="ttdoc">This function look for line with index y. </div><div class="ttdef"><b>Definition:</b> engine.c:323</div></div>
+<div class="ttc" id="structinput__parameters_html_aeea7bd44e263a5f8d06384efd3bb5d0e"><div class="ttname"><a href="structinput__parameters.html#aeea7bd44e263a5f8d06384efd3bb5d0e">input_parameters::x2</a></div><div class="ttdeci">int x2</div><div class="ttdoc">x-coordinates of king of player2 </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="engine_8h_html_a671b58f5509a3a9fa692bacccfc32cc9"><div class="ttname"><a href="engine_8h.html#a671b58f5509a3a9fa692bacccfc32cc9">start_game</a></div><div class="ttdeci">void start_game()</div><div class="ttdoc">Initializes a game. </div><div class="ttdef"><b>Definition:</b> engine.c:46</div></div>
+<div class="ttc" id="engine_8h_html_a9437c65c740ed267afb70ac58b1a3b22"><div class="ttname"><a href="engine_8h.html#a9437c65c740ed267afb70ac58b1a3b22">create_knight</a></div><div class="ttdeci">void create_knight(type_of_line *knight, int x)</div><div class="ttdoc">This function create knight for init needs using create_character function. </div><div class="ttdef"><b>Definition:</b> engine.c:168</div></div>
+<div class="ttc" id="engine_8h_html_afc70ff78ef5f19df54275f66f91e10b2"><div class="ttname"><a href="engine_8h.html#afc70ff78ef5f19df54275f66f91e10b2">delete_field</a></div><div class="ttdeci">void delete_field(type_of_line *character)</div><div class="ttdoc">This function delete given field and if it was last field delete whole line. </div><div class="ttdef"><b>Definition:</b> engine.c:346</div></div>
+<div class="ttc" id="engine_8h_html_a9be3a11fc5243aaf3d38b22e1645ada2"><div class="ttname"><a href="engine_8h.html#a9be3a11fc5243aaf3d38b22e1645ada2">absolute_value</a></div><div class="ttdeci">int absolute_value(int number)</div><div class="ttdoc">This function return absolute value of given number. </div><div class="ttdef"><b>Definition:</b> engine.c:209</div></div>
+<div class="ttc" id="engine_8h_html_a32951a11c14553f0e03ed2e7576f2748"><div class="ttname"><a href="engine_8h.html#a32951a11c14553f0e03ed2e7576f2748">player_won</a></div><div class="ttdeci">void player_won(int player_number)</div><div class="ttdoc">This function end game with win result of one of players. </div><div class="ttdef"><b>Definition:</b> engine.c:377</div></div>
+<div class="ttc" id="engine_8h_html_a6c355efb3996f6ddcc16c27d0224bfb0"><div class="ttname"><a href="engine_8h.html#a6c355efb3996f6ddcc16c27d0224bfb0">end_turn</a></div><div class="ttdeci">void end_turn()</div><div class="ttdoc">This function end turn of one of players, and check if the number of played turns isn&#39;t bigger than m...</div><div class="ttdef"><b>Definition:</b> engine.c:773</div></div>
+<div class="ttc" id="structlist__of__lines_html_a483118b9208361c9abaadd6c31c01b4f"><div class="ttname"><a href="structlist__of__lines.html#a483118b9208361c9abaadd6c31c01b4f">list_of_lines::previous_line</a></div><div class="ttdeci">struct list_of_lines * previous_line</div><div class="ttdoc">Indicator to previous line in list of lines. </div><div class="ttdef"><b>Definition:</b> engine.c:13</div></div>
+<div class="ttc" id="engine_8h_html_ab6b332d9aad7c1d874fa9ca3c8e13d05"><div class="ttname"><a href="engine_8h.html#ab6b332d9aad7c1d874fa9ca3c8e13d05">produce_knight</a></div><div class="ttdeci">void produce_knight(int x1, int y1, int x2, int y2)</div><div class="ttdoc">This function produce unit using produce_unit(x1, y1, x2, y2) function and give to this unit knight a...</div><div class="ttdef"><b>Definition:</b> engine.c:759</div></div>
+<div class="ttc" id="engine_8h_html_a512751eb67e971e92a205e39ee8dfe57"><div class="ttname"><a href="engine_8h.html#a512751eb67e971e92a205e39ee8dfe57">init</a></div><div class="ttdeci">void init(int n, int k, int p, int x1, int y1, int x2, int y2)</div><div class="ttdoc">Initializes a game with size of a board, number of rounds and positions of kings. ...</div><div class="ttdef"><b>Definition:</b> engine.c:240</div></div>
+<div class="ttc" id="engine_8h_html_a121e21e0e93b33f6071d24a43ce28830"><div class="ttname"><a href="engine_8h.html#a121e21e0e93b33f6071d24a43ce28830">constructor_of_main_list</a></div><div class="ttdeci">type_of_list_of_lines * constructor_of_main_list</div><div class="ttdoc">Pointer to mock of list of lines. </div><div class="ttdef"><b>Definition:</b> engine.h:78</div></div>
+<div class="ttc" id="engine_8h_html_af61fc96585211a1dbb07a47db4abe8ca"><div class="ttname"><a href="engine_8h.html#af61fc96585211a1dbb07a47db4abe8ca">type_of_line</a></div><div class="ttdeci">struct line type_of_line</div><div class="ttdoc">Structure of single line. </div></div>
+<div class="ttc" id="engine_8h_html_a548fff34b91e10f9ff3779c15a10ef93"><div class="ttname"><a href="engine_8h.html#a548fff34b91e10f9ff3779c15a10ef93">find_field</a></div><div class="ttdeci">type_of_line * find_field(type_of_list_of_lines *iterator, int x)</div><div class="ttdoc">This function look for field with index x, in the given line. </div><div class="ttdef"><b>Definition:</b> engine.c:335</div></div>
+<div class="ttc" id="structinput__parameters_html_a19e44a03729441c732e953a3ca01bc3f"><div class="ttname"><a href="structinput__parameters.html#a19e44a03729441c732e953a3ca01bc3f">input_parameters::p1</a></div><div class="ttdeci">int p1</div><div class="ttdoc">number of player1 </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="engine_8h_html_a61500581d49ed801deeaa1b0e1c4710d"><div class="ttname"><a href="engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d">print_symbol</a></div><div class="ttdeci">void print_symbol(type_of_line *iterator_on_line)</div><div class="ttdoc">This function print symbol of given field. </div><div class="ttdef"><b>Definition:</b> engine.c:84</div></div>
+<div class="ttc" id="structinput__parameters_html_ae324caf4e1ac82a6baaef8a5234081c3"><div class="ttname"><a href="structinput__parameters.html#ae324caf4e1ac82a6baaef8a5234081c3">input_parameters::y2</a></div><div class="ttdeci">int y2</div><div class="ttdoc">y-coordinate of king of player2 </div><div class="ttdef"><b>Definition:</b> engine.c:29</div></div>
+<div class="ttc" id="structline_html_ac189df255ed25ae802cf412f65a07e2a"><div class="ttname"><a href="structline.html#ac189df255ed25ae802cf412f65a07e2a">line::to_list_of_lines</a></div><div class="ttdeci">type_of_list_of_lines * to_list_of_lines</div><div class="ttdoc">Indicator to list of lines. </div><div class="ttdef"><b>Definition:</b> engine.c:24</div></div>
+<div class="ttc" id="engine_8h_html_a7bf8f2b3f2abed362e87e5156b0cad7d"><div class="ttname"><a href="engine_8h.html#a7bf8f2b3f2abed362e87e5156b0cad7d">type_of_list_of_lines</a></div><div class="ttdeci">struct list_of_lines type_of_list_of_lines</div><div class="ttdoc">Structure of list_of_lines. </div></div>
+<div class="ttc" id="engine_8h_html_a230bf1ce6f1480f9fddb4577d1742f4f"><div class="ttname"><a href="engine_8h.html#a230bf1ce6f1480f9fddb4577d1742f4f">player_number</a></div><div class="ttdeci">int player_number</div><div class="ttdoc">Counter of actually playing player. </div><div class="ttdef"><b>Definition:</b> engine.h:87</div></div>
+<div class="ttc" id="structline_html_abb721ad888ffdb866817db5b5afc033d"><div class="ttname"><a href="structline.html#abb721ad888ffdb866817db5b5afc033d">line::previous</a></div><div class="ttdeci">struct line * previous</div><div class="ttdoc">Indicator to previous unit in line. </div><div class="ttdef"><b>Definition:</b> engine.c:23</div></div>
+<div class="ttc" id="engine_8h_html_af0e24474a4a8addf53dba7a206ad572d"><div class="ttname"><a href="engine_8h.html#af0e24474a4a8addf53dba7a206ad572d">create_line</a></div><div class="ttdeci">void create_line(type_of_list_of_lines *new_line, int y)</div><div class="ttdoc">This function create mock for new_line and set pos_x of this mock on (-1). </div><div class="ttdef"><b>Definition:</b> engine.c:198</div></div>
+<div class="ttc" id="engine_8h_html_a298684de9430c77f30583d99098780b5"><div class="ttname"><a href="engine_8h.html#a298684de9430c77f30583d99098780b5">create_peasant</a></div><div class="ttdeci">void create_peasant(type_of_line *peasant, int x)</div><div class="ttdoc">This function create peasant for init needs using create_character function. </div><div class="ttdef"><b>Definition:</b> engine.c:173</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano N, 15 maj 2016 17:48:18 dla Średniowiecze programem &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

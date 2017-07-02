@@ -1,0 +1,6 @@
+<map id="player_won" name="player_won">
+<area shape="rect" id="node2" href="$engine_8h.html#a1fb95c1cfdb44f81d4ba80658b50913d" title="Prints (into stdout) top&#45;left corner of the board of size m x m where m = min(n,10). " alt="" coords="152,31,256,57"/>
+<area shape="rect" id="node5" href="$engine_8h.html#a4202fa5c5191c7e387d7570da6c8cd8c" title="Frees memory. " alt="" coords="159,81,249,108"/>
+<area shape="rect" id="node3" href="$engine_8h.html#a61500581d49ed801deeaa1b0e1c4710d" title="This function print symbol of given field. " alt="" coords="317,5,422,32"/>
+<area shape="rect" id="node4" href="$engine_8h.html#a6351fcf47fb1cd042b83da768706e567" title="This function print empty line (line full of spaces) which include given amount of spaces..." alt="" coords="304,56,435,83"/>
+</map>

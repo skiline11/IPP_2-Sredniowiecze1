@@ -1,0 +1,2 @@
+/home/skiline11/ClionProjects/sredniowiecze/CMakeFiles/doc.dir
+/home/skiline11/ClionProjects/sredniowiecze/CMakeFiles/middle_ages.dir
